@@ -1,5 +1,8 @@
-body{
+body {
   background-color: magenta;
   font-color: yellow;
 }
 
+h1 {
+  color:red;
+}
