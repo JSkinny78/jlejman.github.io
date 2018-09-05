@@ -1,17 +1,10 @@
-<link rel="stylesheet" type="text/css" href="style.css">
-<!doctype html>
-<html>
-  <head>
-    <title>jlejman CSC 425</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <h1>jlejman</h1>
-  <p>
-    This is my <a href="https://msucsis.github.io/csc425/">CSC 425</a> page. I want to:
-    <ul>
-      <li>Learn</li>
-      <li>Learn</li>
-      <li>Learn some more</li>
-    </ul>
-  </p>
-</html>
+---
+title: pwright4's projects
+layout: main
+---
+
+{% for post in site.posts %}
+  <h2><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h2>
+  {{ post.excerpt }}
+  <a href="{{site.baseurl}}{{post.url}}">Read More</a>
+{% endfor %}
