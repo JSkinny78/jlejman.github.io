@@ -3,16 +3,17 @@ layout: main
 title: About
 ---
 
-## pwright4
+## jlejman
 
-This is just a page where you can put whatever content you'd like.
+I am Jordan. I like video games. Also other things. Programming is cool. 
+...
+I dunno, I saw a cool bug earlier.
+...
+Turned out it was just a leaf under some dirt. That was pretty disappointing.
+...
+Jekyll is weird.
 
 ## Contact Information
 
-Here you could, for instance, link to your [GitHub](http://www.github.com/pwright4) or 
-[Twitter](http://www.twitter.com/msupwright4) profiles.
+Please don't contact me. I mean I guess if you have to, there's always [GitHub](http://www.github.com/jlejman)
 
-## Other Pages
-
-You can also add pages other than an about page by just creating a markdown file in your 
-repository's directory structure where you want the page to appear.
